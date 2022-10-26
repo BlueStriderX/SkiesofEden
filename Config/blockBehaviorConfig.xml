@@ -1027,10 +1027,10 @@
                             <!-- Charge Cannon -->
                             <!-- PROS: High efficiency when fired at full charge, fire rate is changeable -->
                             <!-- CONS: Bad efficiency when fired at low charge, slow recharge -->
-                            <Damage style="buff" linear="true" value ="8.65"/>
+                            <Damage style="buff" linear="true" value ="8.73"/>
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="2" />
-                            <Distance style="nerf" value="2.5"/>
+                            <Distance style="nerf" value="2.25"/>
                             <Speed style="skip"/>
                             <Recoil style="skip"/>
                             <ImpactForce style="buff" value="5.0"/>
@@ -1293,7 +1293,7 @@
 
                             <InitialTicks style="skip"/> <!-- Ticks to do at the initial contact of beam with a block -->
 
-                            <LatchOn style="skip"/>
+                            <LatchOn style="set" value="1"/>
                             <CheckLatchConnection style="skip"/>
                             <Penetration style="skip"/>
                             <AcidDamagePercentage style="skip"/><!-- restdamage of a tick when a block was killed -->
@@ -1312,7 +1312,7 @@
                         <Missile> <!-- Short-range Charge Beam -->
                             <HitSpeed style="skip"/> <!-- 0.02 tick rate-->
                             <AdditiveDamage style="skip"/>
-                            <Distance style="nerf" value="3.0"/>
+                            <Distance style="nerf" value="3.5"/>
 
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
@@ -1326,7 +1326,7 @@
 
                             <LatchOn style="set" value ="0"/>
                             <CheckLatchConnection style="set" value ="1"/>
-                            <Penetration style="skip"/>
+                            <Penetration style="set" value="1"/>
                             <AcidDamagePercentage style="buff" value="1.3"/> <!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
@@ -1357,7 +1357,7 @@
 
                             <LatchOn style="set" value ="0"/>
                             <CheckLatchConnection style="set" value ="1"/>
-                            <Penetration style="set" value="1"/>
+                            <Penetration style="set" value="0"/>
                             <AcidDamagePercentage style="skip"/>
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
