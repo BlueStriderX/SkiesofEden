@@ -1326,7 +1326,7 @@
 
                             <LatchOn style="set" value ="0"/>
                             <CheckLatchConnection style="set" value ="1"/>
-                            <Penetration style="set" value="1"/>
+                            <Penetration style="set" value="0"/>
                             <AcidDamagePercentage style="buff" value="1.3"/> <!-- restdamage of a tick when a block was killed -->
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
