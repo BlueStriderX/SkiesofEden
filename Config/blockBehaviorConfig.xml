@@ -132,8 +132,8 @@
 
 
 
-                        <ExplosionShieldDamageBonus>0.0</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
-                        <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
+                        <ExplosionShieldDamageBonus>-0.25</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionHullDamageBonus>-0.05</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
                         <!-- Rest -->
@@ -1213,7 +1213,7 @@
                             <PossibleZoom style="set" value="0.5"/>
                         </Missile>
                         <Beam> <!-- Lock-on Missile -->
-                            <Damage style="buff" value="0.18" linear="true" />
+                            <Damage style="buff" value="0.17" linear="true" />
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value="1"/>
