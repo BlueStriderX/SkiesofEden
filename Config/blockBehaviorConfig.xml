@@ -1287,7 +1287,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="1.1"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="nerf" linear="true" value="1.0"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="10"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
