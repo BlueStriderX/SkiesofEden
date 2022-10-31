@@ -687,7 +687,7 @@
                         <ChargeNeededForScanPerBlock>1200</ChargeNeededForScanPerBlock> <!-- (in drive module blocks) added to <chargeNeededForScan> -->
                         <ChargeNeededForScanPerBlockAfterRatioMet>1</ChargeNeededForScanPerBlockAfterRatioMet> <!-- (in drive module blocks for every block after ratio is met -->
                         <ReloadMsAfterUseMs>10</ReloadMsAfterUseMs>
-                        <DefaultScanDistance>4</DefaultScanDistance>
+                        <DefaultScanDistance>16</DefaultScanDistance>
                         <EnemySystemDistanceMult>0.5</EnemySystemDistanceMult> <!-- Scan distance modifier for scanners in an enemy territory -->
                         <AllySystemDistanceMult>1.5</AllySystemDistanceMult> <!-- Scan distance modifier for allied and own territory (owner additionally scans whole 16x16x16 sector system)-->
                         <ChargeAddedPerSecond>5000</ChargeAddedPerSecond>
@@ -700,7 +700,7 @@
                 <BasicValues>
                         <!-- OLD POWER -->
                         <PowerNeededPerShipyardBlock>50</PowerNeededPerShipyardBlock> <!-- constant power consumption to keep the ship yard active per second -->
-                        <ShipyardArcMaxSpacing>50</ShipyardArcMaxSpacing> <!-- max distance between shipyard arcs -->
+                        <ShipyardArcMaxSpacing>100</ShipyardArcMaxSpacing> <!-- max distance between shipyard arcs -->
                         <ConstructionTickInSeconds>1</ConstructionTickInSeconds> <!-- construction tick in seconds -->
                         <ConstructionBlocksTakenPerTick>2500</ConstructionBlocksTakenPerTick> <!-- blocks constructed per tick -->
                         <DeconstructionTimePerBlockInMilliseconds>0.01</DeconstructionTimePerBlockInMilliseconds> <!-- time in milliseconds added to constant time per block -->
