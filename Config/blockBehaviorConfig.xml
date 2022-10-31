@@ -132,8 +132,8 @@
 
 
 
-                        <ExplosionShieldDamageBonus>0.35</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
-                        <ExplosionHullDamageBonus>0.25</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
+                        <ExplosionShieldDamageBonus>-0.25</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionHullDamageBonus>-0.05</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
                         <!-- Rest -->
@@ -1058,7 +1058,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest range, big hole on hit -->
                             <!-- CONS: slow to reload, lowest DPS -->
-                            <Damage style="buff" linear="true" value="7.95" /> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" linear="true" value="8.085" /> <!-- 1 + 36.5 = 600 damage -->
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="6.7" /> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.35" />
@@ -1213,7 +1213,7 @@
                             <PossibleZoom style="set" value="0.5"/>
                         </Missile>
                         <Beam> <!-- Lock-on Missile -->
-                            <Damage style="buff" value="0.18" linear="true" />
+                            <Damage style="buff" value="0.17" linear="true" />
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="1.5"/>
                             <Distance style="buff" value="1"/>
@@ -1287,7 +1287,7 @@
                             <PowerConsumptionResting style="skip" linear="true"/>
                             <PowerConsumptionCharging style="skip" linear="true"/>
 
-                            <PowerPerHit style="nerf" linear="true" value="1.1"/> <!-- 5 - This is the damage per hit -->
+                            <PowerPerHit style="nerf" linear="true" value="1.0"/> <!-- 5 - This is the damage per hit -->
                             <CoolDown style="nerf" value="10"/> <!-- 1.5 - Time it takes to fire beam again from the start-time it first activated -->
                             <BurstTime style="nerf" value="5"/> <!-- Time the beam will fire -->
 
