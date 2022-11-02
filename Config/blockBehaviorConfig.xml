@@ -132,7 +132,7 @@
 
 
 
-                        <ExplosionShieldDamageBonus>-0.3</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionShieldDamageBonus>-0.35</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
                         <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
@@ -1058,7 +1058,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest range, big hole on hit -->
                             <!-- CONS: slow to reload, lowest DPS -->
-                            <Damage style="buff" linear="true" value="8.085" /> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" linear="true" value="8.1" /> <!-- 1 + 36.5 = 600 damage -->
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="6.7" /> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.35" />
