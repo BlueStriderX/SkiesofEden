@@ -1038,8 +1038,8 @@
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="nerf" value ="1.5"/>
                             <AcidFormula style="set" value="2"/>
-                            <ChargeMax style="set" value="1.3"/>
-                            <ChargeSpeed style="set" value="1.0"/>
+                            <ChargeMax style="set" value="0.0"/>
+                            <ChargeSpeed style="set" value="0.0"/>
 
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
                             <CursorRecoilMinX style="skip"/> <!-- Min cursor recoil value -->
@@ -1331,7 +1331,7 @@
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
 
-                            <ChargeTime style="set" value="3.0"/> <!-- how long weapon must be charged before fire (0 for off) -->
+                            <ChargeTime style="set" value="0.0"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
