@@ -132,8 +132,8 @@
 
 
 
-                        <ExplosionShieldDamageBonus>-0.25</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
-                        <ExplosionHullDamageBonus>-0.05</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
+                        <ExplosionShieldDamageBonus>-0.35</ExplosionShieldDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against shields-->
+                        <ExplosionHullDamageBonus>0.0</ExplosionHullDamageBonus> <!-- all explosions (missile/warhead/pulse) do [damage + damage * bonus] against blocks (will also hurt armor more)-->
 
 
                         <!-- Rest -->
@@ -687,7 +687,7 @@
                         <ChargeNeededForScanPerBlock>1200</ChargeNeededForScanPerBlock> <!-- (in drive module blocks) added to <chargeNeededForScan> -->
                         <ChargeNeededForScanPerBlockAfterRatioMet>1</ChargeNeededForScanPerBlockAfterRatioMet> <!-- (in drive module blocks for every block after ratio is met -->
                         <ReloadMsAfterUseMs>10</ReloadMsAfterUseMs>
-                        <DefaultScanDistance>4</DefaultScanDistance>
+                        <DefaultScanDistance>16</DefaultScanDistance>
                         <EnemySystemDistanceMult>0.5</EnemySystemDistanceMult> <!-- Scan distance modifier for scanners in an enemy territory -->
                         <AllySystemDistanceMult>1.5</AllySystemDistanceMult> <!-- Scan distance modifier for allied and own territory (owner additionally scans whole 16x16x16 sector system)-->
                         <ChargeAddedPerSecond>5000</ChargeAddedPerSecond>
@@ -700,7 +700,7 @@
                 <BasicValues>
                         <!-- OLD POWER -->
                         <PowerNeededPerShipyardBlock>50</PowerNeededPerShipyardBlock> <!-- constant power consumption to keep the ship yard active per second -->
-                        <ShipyardArcMaxSpacing>50</ShipyardArcMaxSpacing> <!-- max distance between shipyard arcs -->
+                        <ShipyardArcMaxSpacing>100</ShipyardArcMaxSpacing> <!-- max distance between shipyard arcs -->
                         <ConstructionTickInSeconds>1</ConstructionTickInSeconds> <!-- construction tick in seconds -->
                         <ConstructionBlocksTakenPerTick>2500</ConstructionBlocksTakenPerTick> <!-- blocks constructed per tick -->
                         <DeconstructionTimePerBlockInMilliseconds>0.01</DeconstructionTimePerBlockInMilliseconds> <!-- time in milliseconds added to constant time per block -->
@@ -716,7 +716,7 @@
                         <!-- OLD POWER-->
                         <PowerNeededPerGateBlock>100</PowerNeededPerGateBlock> <!-- constant power consumption to keep the gate active -->
                         <PowerNeededPerMass>100</PowerNeededPerMass> <!-- to Jump, the One Time Power Expense is shipMass * PowerNeededPerMass at the time of jumping-->
-                        <DistanceInSectors>80</DistanceInSectors> <!-- default: 4 systems -->
+                        <DistanceInSectors>120</DistanceInSectors> <!-- default: 4 systems -->
 
                         <!-- NEW POWER -->
                         <ReactorPowerNeededPerBlockPerSec>10</ReactorPowerNeededPerBlockPerSec> <!-- Reactor power needed per Second (there is no resting state) -->
@@ -1038,8 +1038,8 @@
                             <PowerConsumption style="skip" linear="true"/>
                             <ProjectileWidth style="nerf" value ="1.5"/>
                             <AcidFormula style="set" value="2"/>
-                            <ChargeMax style="set" value="1.3"/>
-                            <ChargeSpeed style="set" value="1.0"/>
+                            <ChargeMax style="set" value="0.0"/>
+                            <ChargeSpeed style="set" value="0.0"/>
 
                             <CursorRecoilX style="skip"/> <!-- Cursor movement force multiplied with damage -->
                             <CursorRecoilMinX style="skip"/> <!-- Min cursor recoil value -->
@@ -1058,7 +1058,7 @@
                             <!-- Artillery Cannon -->
                             <!-- PROS: Highest range, big hole on hit -->
                             <!-- CONS: slow to reload, lowest DPS -->
-                            <Damage style="buff" linear="true" value="8.085" /> <!-- 1 + 36.5 = 600 damage -->
+                            <Damage style="buff" linear="true" value="8.1" /> <!-- 1 + 36.5 = 600 damage -->
                             <AdditiveDamage style="skip"/>
                             <Reload style="buff" value="6.7" /> <!-- 1 + 14 = 15000ms -->
                             <Distance style="buff" value="0.35" />
@@ -1331,7 +1331,7 @@
                             <FriendlyFire style="set" value ="0"/>
                             <Aimable style="set" value ="1"/>
 
-                            <ChargeTime style="set" value="3.0"/> <!-- how long weapon must be charged before fire (0 for off) -->
+                            <ChargeTime style="set" value="0.0"/> <!-- how long weapon must be charged before fire (0 for off) -->
                             <MinEffectiveValue style="skip"/> <!-- effectiveness (*damage) of beam at min efficiency range -->
                             <MinEffectiveRange style="skip"/> <!-- at what % of beam length or less the beam uses the MinEffectiveValue-->
 
