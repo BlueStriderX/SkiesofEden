@@ -716,7 +716,7 @@
                         <!-- OLD POWER-->
                         <PowerNeededPerGateBlock>100</PowerNeededPerGateBlock> <!-- constant power consumption to keep the gate active -->
                         <PowerNeededPerMass>100</PowerNeededPerMass> <!-- to Jump, the One Time Power Expense is shipMass * PowerNeededPerMass at the time of jumping-->
-                        <DistanceInSectors>120</DistanceInSectors> <!-- default: 4 systems -->
+                        <DistanceInSectors>150</DistanceInSectors> <!-- default: 4 systems -->
 
                         <!-- NEW POWER -->
                         <ReactorPowerNeededPerBlockPerSec>10</ReactorPowerNeededPerBlockPerSec> <!-- Reactor power needed per Second (there is no resting state) -->
