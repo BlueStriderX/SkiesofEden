@@ -742,13 +742,12 @@
         </Transporter>
         <Shop>
                 <BasicValues>
-                	<TradingGuildCargoPerShip>1000.0</TradingGuildCargoPerShip>
-                	<TradingGuildCostPerSystem>300</TradingGuildCostPerSystem>
-                	<TradingGuildCostPerCargoShip>1000</TradingGuildCostPerCargoShip>
-                	<TradingGuildTimePerSectorSec>3.0</TradingGuildTimePerSectorSec>
-                	<TradingGuildProfitOfValue>0.05</TradingGuildProfitOfValue>
-                	<TradingGuildProfitOfValuePerSystem>0.01</TradingGuildProfitOfValuePerSystem>
-
+                	<TradingGuildCargoPerShip>50000.0</TradingGuildCargoPerShip>
+                	<TradingGuildCostPerSystem>100</TradingGuildCostPerSystem>
+                	<TradingGuildCostPerCargoShip>500</TradingGuildCostPerCargoShip>
+                	<TradingGuildTimePerSectorSec>1.0</TradingGuildTimePerSectorSec>
+                	<TradingGuildProfitOfValue>0</TradingGuildProfitOfValue>
+                	<TradingGuildProfitOfValuePerSystem>0</TradingGuildProfitOfValuePerSystem>
                 </BasicValues>
         </Shop>
         <Explosive>
@@ -960,7 +959,7 @@
                         <PenetrationDepthExp>0.3</PenetrationDepthExp>
                         <PenetrationDepthExpMult>0.37</PenetrationDepthExpMult>
 
-                        <AcidDamageMaxPropagation>150</AcidDamageMaxPropagation> <!-- How many blocks far a single propagation will go -->
+                        <AcidDamageMaxPropagation>80</AcidDamageMaxPropagation> <!-- How many blocks far a single propagation will go -->
 
                          <!-- Factor between 0 and 1: Less damage up front, more towards the back -->
                          <!-- Factor between 1 and 2: More damage up front, less towards the back -->
@@ -974,7 +973,7 @@
                         <!-- Factor used in acid formulae to redirect more damage towards armor blocks -->
                         <AcidDamageMinOverArmorModifier>1.0</AcidDamageMinOverArmorModifier>
                         <AcidDamageMaxOverArmorModifier>4.0</AcidDamageMaxOverArmorModifier>
-                        <AcidDamageOverArmorBaseReference>250</AcidDamageOverArmorBaseReference> <!-- AcidDamageOverArmor = Armor value of block / AcidDamageOverArmorBase -->
+                        <AcidDamageOverArmorBaseReference>750</AcidDamageOverArmorBaseReference> <!-- AcidDamageOverArmor = Armor value of block / AcidDamageOverArmorBase -->
 
 
                         <AcidFormulaDefault>0</AcidFormulaDefault> <!-- 0 -> equalized, 1 -> codeStartWide, 2 -> codeEndWide-->
