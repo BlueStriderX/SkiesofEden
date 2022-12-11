@@ -996,7 +996,7 @@
                             <!-- CONS: Less damage per power consumed, less impact force per damage -->
 
                             <Damage style="nerf" linear="true" value="4.4"/>
-                            <AdditiveDamage style="skip"/>
+                            <AdditiveDamage style="set" value="7"/>
                             <Reload style="nerf" value= "10"/>
                             <Distance style="nerf" value="1.5"/>
                             <Speed style="skip"/>
