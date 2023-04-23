@@ -239,7 +239,7 @@
                         
                         <ShieldLocalOnZeroShieldsRechargePreventionSec>10.0</ShieldLocalOnZeroShieldsRechargePreventionSec>
                         <ShieldLocalHitAllOverlapping>true</ShieldLocalHitAllOverlapping>
-                        <ShieldLocalMaxCapacityGroupsPerLocalShield>20</ShieldLocalMaxCapacityGroupsPerLocalShield>
+                        <ShieldLocalMaxCapacityGroupsPerLocalShield>50</ShieldLocalMaxCapacityGroupsPerLocalShield>
 
                         <!-- Overheat Timer --> 
                         <OverheatTimerMin>60</OverheatTimerMin> <!-- in seconds -->
